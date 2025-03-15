@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome | Image Steganography</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container" style="text-align: center;">
+        <h1>🖼️ Welcome to Image Steganography</h1>
+        <p style="margin-top: 10px; font-size: 18px;">
+            Securely hide or reveal secret messages within images using password protection.
+        </p>
+
+        <div style="margin-top: 40px;">
+            <a href="/encrypt">
+                <button>🔐 Encrypt Message</button>
+            </a>
+            <a href="/decrypt">
+                <button style="margin-left: 15px;">🔓 Decrypt Message</button>
+            </a>
+        </div>
+
+        <footer style="margin-top: 60px; font-size: 14px; color: #888;">
+            © 2025 Image Steganography App — Built by team - [Kalyani, Lalitha Shivapriya, Azra, Shiva, Ujwala, Nazeema]
+        </footer>
+    </div>
+</body>
+</html>
